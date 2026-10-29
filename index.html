@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b0b0c">
+<title>SHEIQ NOIR MENSWEAR | Premium Men's Fashion</title>
+<style>
+:root{--bg:#0b0b0c;--panel:#141416;--panel2:#1b1b1e;--gold:#c7a56a;--cream:#f2eee7;--muted:#aaa5a0;--line:#2b2926}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--cream);font-family:Arial,Helvetica,sans-serif}button,input,select,textarea{font:inherit}a{color:inherit;text-decoration:none}.top{background:#171513;text-align:center;padding:9px 12px;color:#d8c5a5;font-size:11px;letter-spacing:2px}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;padding:0 6%;border-bottom:1px solid var(--line);position:sticky;top:0;background:#0b0b0cf2;backdrop-filter:blur(12px);z-index:10}.brand{font-family:Georgia,serif;font-size:23px;letter-spacing:3px;font-weight:bold}.brand small{display:block;font:9px Arial;letter-spacing:5px;color:var(--gold);margin-top:5px}.links{display:flex;gap:28px;color:#ddd;font-size:12px;letter-spacing:1px}.links a:hover{color:var(--gold)}.cartbtn,.btn{border:1px solid var(--gold);background:transparent;color:var(--cream);padding:12px 18px;cursor:pointer;letter-spacing:1px;font-size:11px}.cartbtn:hover,.btn:hover{background:var(--gold);color:#111}.hero{min-height:590px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;padding:65px 8%;gap:30px;background:radial-gradient(ellipse at 78% 45%,#29231b 0%,#101012 45%,#0b0b0c 75%)}.eyebrow{color:var(--gold);letter-spacing:4px;font-size:10px}.hero h1{font:clamp(42px,6vw,76px)/1.04 Georgia,serif;letter-spacing:2px;margin:20px 0}.hero h1 span{color:var(--gold);font-style:italic}.hero p{color:#b8b3ad;max-width:430px;line-height:1.8;font-size:14px}.hero-art{height:450px;position:relative;overflow:hidden;border:1px solid #4a4031;background:#211d18}.hero-art img{width:100%;height:100%;object-fit:cover;filter:brightness(.78)}.hero-label{position:absolute;bottom:20px;left:20px;letter-spacing:3px;font-size:10px;background:#0b0b0ccc;padding:12px 16px}.section{padding:75px 7%}.section-head{text-align:center;margin-bottom:38px}.section-head h2{font:36px Georgia,serif;margin:12px 0}.section-head p{color:var(--muted);font-size:13px}.categories{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:60px}.cat{height:240px;position:relative;overflow:hidden;background:#222}.cat img{width:100%;height:100%;object-fit:cover;filter:brightness(.62);transition:.4s}.cat:hover img{transform:scale(1.05)}.cat strong{position:absolute;bottom:20px;left:20px;font:24px Georgia,serif}.toolbar{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px;color:var(--muted);font-size:12px}.toolbar select{background:var(--panel);border:1px solid var(--line);color:var(--cream);padding:10px}.products{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.product{background:var(--panel);border:1px solid #252326;min-width:0}.product img{width:100%;height:275px;object-fit:cover;background:#242222}.pinfo{padding:16px}.pinfo .type{color:var(--gold);font-size:9px;letter-spacing:2px}.pinfo h3{font:18px Georgia,serif;margin:9px 0}.price{font-size:14px;color:#e5d4b7;margin-bottom:14px}.add{width:100%;padding:11px;background:transparent;border:1px solid #766345;color:var(--cream);cursor:pointer;font-size:10px;letter-spacing:1px}.add:hover{background:var(--gold);color:#111}.about{background:#131315;display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}.about img{width:100%;height:330px;object-fit:cover}.about h2{font:38px Georgia,serif}.about p{color:var(--muted);line-height:1.9;font-size:13px}.features{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:35px}.feature{border:1px solid var(--line);padding:22px;text-align:center}.feature b{display:block;color:var(--gold);font:18px Georgia,serif;margin-bottom:8px}.feature span{font-size:11px;color:var(--muted)}footer{padding:40px 7%;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:25px;flex-wrap:wrap;color:var(--muted);font-size:12px}footer .brand{color:var(--cream)}.overlay{position:fixed;inset:0;background:#000a;z-index:30;display:none}.overlay.show{display:block}.drawer{position:absolute;right:0;top:0;height:100%;width:min(480px,100%);background:#111113;padding:25px;overflow:auto;border-left:1px solid var(--line)}.drawer-head{display:flex;justify-content:space-between;align-items:center}.close{background:none;border:0;color:white;font-size:25px;cursor:pointer}.cartrow{display:grid;grid-template-columns:64px 1fr auto;gap:12px;align-items:center;border-bottom:1px solid var(--line);padding:13px 0}.cartrow img{width:64px;height:70px;object-fit:cover}.cartrow small{color:var(--muted)}.qty button{background:#282522;color:white;border:0;padding:5px 9px;cursor:pointer}.total{display:flex;justify-content:space-between;padding:18px 0;font-size:18px}.formgrid{display:grid;gap:11px;margin-top:15px}.formgrid input,.formgrid select,.formgrid textarea{width:100%;padding:13px;background:#1b1b1e;border:1px solid #393633;color:white;outline:none}.formgrid label{font-size:11px;color:#c9b99f;letter-spacing:1px}.formgrid textarea{min-height:65px;resize:vertical}.submit{background:var(--gold);color:#111;border:0;padding:15px;cursor:pointer;font-weight:bold;letter-spacing:1px}.note{font-size:11px;color:#aaa;line-height:1.6}.empty{color:var(--muted);padding:35px 0;text-align:center}.whatsapp{position:fixed;right:20px;bottom:20px;background:#1c9d5a;color:white;border-radius:50px;padding:14px 18px;font-size:12px;z-index:15;box-shadow:0 5px 20px #0008}
+@media(max-width:850px){.hero{grid-template-columns:1fr;padding:55px 7%}.hero-art{height:350px}.products{grid-template-columns:repeat(2,1fr)}.categories{gap:10px}.cat{height:180px}.about{grid-template-columns:1fr}.links{gap:12px}.nav{padding:0 4%}}
+@media(max-width:520px){.nav{height:68px}.brand{font-size:18px}.links{display:none}.hero{min-height:auto}.hero-art{height:300px}.section{padding:55px 5%}.products{gap:10px}.product img{height:205px}.pinfo{padding:11px}.pinfo h3{font-size:15px}.cat{height:140px}.cat strong{font-size:17px;left:10px;bottom:12px}.features{grid-template-columns:1fr}.toolbar{gap:10px}.about img{height:250px}}
+</style>
+</head>
+<body>
+<div class="top">COMPLIMENTARY DELIVERY ON ORDERS OVER ৳3,000 · BANGLADESH</div>
+<header class="nav">
+  <a class="brand" href="#">SHEIQ NOIR<small>M E N S W E A R</small></a>
+  <nav class="links"><a href="#home">HOME</a><a href="#collection">COLLECTION</a><a href="#about">OUR STORY</a><a href="#contact">CONTACT</a></nav>
+  <button class="cartbtn" onclick="openCart()">BAG (<span id="cartCount">0</span>)</button>
+</header>
+<main>
+<section class="hero" id="home">
+  <div><div class="eyebrow">THE ART OF EVERYDAY ELEGANCE</div><h1>Defined by<br><span>the details.</span></h1><p>Refined essentials. Confident silhouettes. Discover a considered collection of modern menswear, made to elevate your everyday style.</p><a class="btn" href="#collection" style="display:inline-block;margin-top:18px">EXPLORE COLLECTION</a></div>
+  <div class="hero-art"><img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=1000&q=85" alt="Modern menswear editorial"><div class="hero-label">SHEIQ NOIR · NEW SEASON</div></div>
+</section>
+<section class="section" id="collection">
+  <div class="section-head"><div class="eyebrow">CURATED FOR YOU</div><h2>Shop the collection</h2><p>Timeless pieces. Modern attitude.</p></div>
+  <div class="categories">
+    <a class="cat" href="#products"><img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80" alt="T-shirts"><strong>Essential Tees</strong></a>
+    <a class="cat" href="#products"><img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80" alt="Shirts"><strong>Shirts & Polos</strong></a>
+    <a class="cat" href="#products"><img src="https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=700&q=80" alt="Denim"><strong>Denim & Trousers</strong></a>
+  </div>
+  <div class="toolbar" id="products"><span>FEATURED PIECES</span><select id="filter" onchange="renderProducts()"><option value="All">All products</option><option>T-shirt</option><option>Shirt</option><option>Pants</option></select></div>
+  <div class="products" id="productsGrid"></div>
+</section>
+<section class="section about" id="about">
+  <img src="https://images.unsplash.com/photo-1516257984-b1b4d707412e?auto=format&fit=crop&w=1000&q=85" alt="Menswear detail">
+  <div><div class="eyebrow">LESS, BUT BETTER</div><h2>Style that speaks<br>without saying a word.</h2><p>SHEIQ NOIR MENSWEAR is built around clean design, considered details and effortless confidence. Find your fit, define your look and make every day your own.</p><a class="btn" href="#collection">FIND YOUR STYLE</a></div>
+</section>
+<section class="section" style="padding-top:45px;padding-bottom:55px">
+  <div class="features"><div class="feature"><b>Premium Feel</b><span>Thoughtful styles for everyday wear</span></div><div class="feature"><b>Easy Ordering</b><span>Order online or directly through WhatsApp</span></div><div class="feature"><b>Pay Your Way</b><span>Cash on Delivery, bKash & Nagad</span></div></div>
+</section>
+</main>
+<footer id="contact"><div><div class="brand">SHEIQ NOIR<small>M E N S W E A R</small></div><p>Modern essentials for the modern man.</p></div><div><b style="color:#e8d8bd">CUSTOMER CARE</b><p>WhatsApp: 01340718272</p><p>Bangladesh</p></div><div><b style="color:#e8d8bd">FOLLOW OUR JOURNEY</b><p>Connect with us on WhatsApp for new arrivals and orders.</p></div><div>© <span id="year"></span> SHEIQ NOIR MENSWEAR</div></footer>
+<a class="whatsapp" href="https://wa.me/8801340718272" target="_blank" rel="noopener">WhatsApp Us ↗</a>
+<div class="overlay" id="overlay" onclick="if(event.target===this)closeCart()"><div class="drawer">
+  <div class="drawer-head"><h2 style="font:28px Georgia;margin:0">Your Bag</h2><button class="close" onclick="closeCart()">×</button></div>
+  <div id="cartItems"></div><div class="total"><span>Total</span><b id="total">৳0</b></div>
+  <h3 style="font:22px Georgia">Complete your order</h3>
+  <form class="formgrid" id="orderForm">
+    <label>YOUR NAME</label><input id="customerName" required placeholder="Full name">
+    <label>PHONE NUMBER</label><input id="customerPhone" required inputmode="tel" placeholder="01XXXXXXXXX">
+    <label>DELIVERY ADDRESS</label><textarea id="customerAddress" required placeholder="House, road, area, district"></textarea>
+    <label>PAYMENT METHOD</label><select id="payment"><option>Cash on Delivery</option><option>bKash</option><option>Nagad</option></select>
+    <div class="note" id="paymentNote">Cash on Delivery selected. Pay when your order arrives.</div>
+    <label>TRANSACTION ID (FOR bKash / NAGAD)</label><input id="trx" placeholder="Enter transaction ID (if already paid)">
+    <label>ORDER NOTE (OPTIONAL)</label><textarea id="orderNote" placeholder="Size, colour or other instructions"></textarea>
+    <button class="submit" type="submit">PLACE ORDER VIA WHATSAPP</button>
+    <p class="note">Your order details will open in WhatsApp for confirmation. For bKash/Nagad, please contact the shop first to confirm the official payment number. Do not send money to an unverified number.</p>
+  </form>
+</div></div>
+<script>
+const WA='8801340718272';
+const products=[
+{id:1,name:'NOIR Essential Tee',cat:'T-shirt',price:650,img:'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=700&q=80'},
+{id:2,name:'Classic Oxford Shirt',cat:'Shirt',price:1250,img:'https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=700&q=80'},
+{id:3,name:'Urban Denim',cat:'Pants',price:1550,img:'https://images.unsplash.com/photo-1542272604-787c3835535d?auto=format&fit=crop&w=700&q=80'},
+{id:4,name:'Relaxed Fit Tee',cat:'T-shirt',price:750,img:'https://images.unsplash.com/photo-1503341504253-dff4815485f1?auto=format&fit=crop&w=700&q=80'},
+{id:5,name:'Signature Polo',cat:'Shirt',price:990,img:'https://images.unsplash.com/photo-1625910513413-5fc4b2f6f6b4?auto=format&fit=crop&w=700&q=80'},
+{id:6,name:'Tailored Trousers',cat:'Pants',price:1450,img:'https://images.unsplash.com/photo-1473966968600-fa801b869a1a?auto=format&fit=crop&w=700&q=80'},
+{id:7,name:'Oversized Street Tee',cat:'T-shirt',price:850,img:'https://images.unsplash.com/photo-1523381210434-271e8be1f52b?auto=format&fit=crop&w=700&q=80'},
+{id:8,name:'Premium Casual Shirt',cat:'Shirt',price:1350,img:'https://images.unsplash.com/photo-1603252109303-2751441dd157?auto=format&fit=crop&w=700&q=80'}
+];
+let cart=[];
+const money=n=>'৳'+n.toLocaleString('en-US');
+function renderProducts(){const f=document.getElementById('filter').value;document.getElementById('productsGrid').innerHTML=products.filter(p=>f==='All'||p.cat===f).map(p=>`<article class="product"><img src="${p.img}" alt="${p.name}" loading="lazy"><div class="pinfo"><div class="type">${p.cat.toUpperCase()}</div><h3>${p.name}</h3><div class="price">${money(p.price)}</div><button class="add" onclick="addToCart(${p.id})">ADD TO BAG +</button></div></article>`).join('')}
+function addToCart(id){const item=cart.find(x=>x.id===id);if(item)item.qty++;else cart.push({...products.find(p=>p.id===id),qty:1});updateCart();openCart()}
+function updateCart(){document.getElementById('cartCount').textContent=cart.reduce((s,x)=>s+x.qty,0);document.getElementById('total').textContent=money(cart.reduce((s,x)=>s+x.price*x.qty,0));const el=document.getElementById('cartItems');if(!cart.length){el.innerHTML='<div class="empty">Your bag is empty.<br>Explore the collection and add your favourites.</div>';return}el.innerHTML=cart.map(x=>`<div class="cartrow"><img src="${x.img}" alt=""><div><b>${x.name}</b><br><small>${money(x.price)} × ${x.qty}</small></div><div class="qty"><button onclick="changeQty(${x.id},-1)">−</button> ${x.qty} <button onclick="changeQty(${x.id},1)">+</button></div></div>`).join('')}
+function changeQty(id,d){const x=cart.find(x=>x.id===id);if(x){x.qty+=d;if(x.qty<=0)cart=cart.filter(y=>y.id!==id)}updateCart()}
+function openCart(){document.getElementById('overlay').classList.add('show');document.body.style.overflow='hidden';updateCart()}
+function closeCart(){document.getElementById('overlay').classList.remove('show');document.body.style.overflow=''}
+document.getElementById('payment').addEventListener('change',e=>{document.getElementById('paymentNote').textContent=e.target.value==='Cash on Delivery'?'Cash on Delivery selected. Pay when your order arrives.':'Please message the shop on WhatsApp to confirm the official '+e.target.value+' payment number before sending money.'});
+document.getElementById('orderForm').addEventListener('submit',e=>{e.preventDefault();if(!cart.length){alert('Your bag is empty. Please add a product first.');return}const name=document.getElementById('customerName').value.trim(),phone=document.getElementById('customerPhone').value.trim(),address=document.getElementById('customerAddress').value.trim(),payment=document.getElementById('payment').value,trx=document.getElementById('trx').value.trim(),note=document.getElementById('orderNote').value.trim();const lines=cart.map(x=>`• ${x.name} — ${x.qty} x ${money(x.price)} = ${money(x.qty*x.price)}`).join('\n');const total=cart.reduce((s,x)=>s+x.qty*x.price,0);const msg=`SHEIQ NOIR MENSWEAR — NEW ORDER\n\n${lines}\n\nTotal: ${money(total)}\n\nCustomer: ${name}\nPhone: ${phone}\nAddress: ${address}\nPayment: ${payment}\nTransaction ID: ${trx||'Not provided'}\nNote: ${note||'None'}\n\nPlease confirm my order.`;window.open(`https://wa.me/${WA}?text=${encodeURIComponent(msg)}`,'_blank');});
+document.getElementById('year').textContent=new Date().getFullYear();renderProducts();updateCart();
+</script>
+</body>
+</html>
